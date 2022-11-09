@@ -36,3 +36,7 @@ jobs:
         run: |
           pwd
           echo $USER
+      
+      - name: Show files directory
+        run: |
+          ls
